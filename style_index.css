@@ -1,0 +1,97 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #d0b7ff  ;
+}
+h1 {
+    font-size: 35px;
+}
+.header {
+    background-color: rgb(177, 233, 255);
+    border-style: dashed;
+    border-color: cadetblue;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+nav {
+    background-color: white ;
+    font-size: 120%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-style: dotted;
+    border-width: 4px;
+    border-radius: 30px;
+    border-color: rgb(33, 116, 224);
+    color: blueviolet;
+    position: sticky;
+    top: 10px;
+}
+
+.kategori {
+    text-align: center;
+    background-color: rgb(255, 158, 163);
+    padding: 10px 0 10px 0;
+    border-radius: 40px;
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cari {
+    border-radius: 8px;
+}
+
+.judul1 {
+    font-size: 20px;
+    text-align: right;
+}
+
+p{
+    color: rgb(31, 31, 31);
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    width: 80%;
+    margin: 40px;
+}
+
+hr {
+    margin: 30px 0 30px 0;
+    color: blueviolet;
+}
+
+.book_list {
+    text-align: center;
+}
+
+div {
+    padding: 85px 0 85px 0;
+    font-size: 20px;
+    background-color: rgb(199, 118, 118);
+    border-style: inset;
+    border-radius: 10px;
+}
+
+.div {
+    color: rgb(243, 243, 243);
+    margin-left: 15px;
+}
+
+footer{
+    background-color: rgb(166, 255, 178);
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    border-style:double;
+    border-color: rgb(218, 69, 255);
+    text-align: center;
+}
