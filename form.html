@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel - Team 1's Creative Books Store</title>
+    <link rel="icon" href="image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style_index.css">
+</head>
+<body>
+    <header>
+        <table class="header" width="100%">
+            <tr>
+                <td align="center">
+                    <h1>TEAM 1'S CREATIVE BOOKS STORE</h1>
+                    <h2>Form Pembelian</h2>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="contact.html" target="_blank">Contact</a> |
+        <a href="social_media.html" target="_blank">Social Media</a>  
+    </nav>
+    <main>
+        <div class="form-tampilan">
+            <form name="form-pembelian" onsubmit="validate()" method="post">
+            <h4 >Silahkan Mengisikan Form Pembelian Di Bawah Ini</h4>
+            <label for="uname">Nama &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
+                <input class="form" type="text" name="username" id="username" placeholder="Masukkan Nama Lengkap Anda">
+            </label><br>
+            <label for="alamat">Alamat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
+                <input class="form" type="text" name="alamat" id="alamat" placeholder="Masukkan Alamat Anda">
+            </label><br>
+            <label for="no-hp">No. HP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
+                <input class="form" type="text" name="no-hp" id="no-hp" placeholder="Masukkan Nomor HP Anda">
+            </label><br>
+            <label for="email">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
+                <input class="form" type="text" name="email" id="email" placeholder="Masukkan Email Anda">
+            </label><br>
+            <label for="buku">Nama Buku &nbsp; :
+                <input class="form" type="text" name="buku" id="buku" placeholder="Pilih Buku Yang Ingin Dibeli" list="listdata">
+                    <datalist id="listdata">
+                        <option>Bumi</option>
+                        <option>Laut Bercerita</option>
+                        <option>The Newcomer : Pembunuhan Di Nihonbashi</option>
+                        <option>Catatan Pembunuhan Sang Novelis</option>
+                        <option>Code Helix</option>
+                        <option>Gundala</option>
+                        <option>Virgo And The Sparklings</option>
+                        <option>The Incredible Hulk</option>
+                        <option>Hawkeye</option>
+                        <option>Gagal Menjadi Manusia</option>
+                        <option>Rashomon</option>
+                        <option>Sayap-Sayap Patah</option>
+                        <option>Tenggelamnya Kapal Van der Wijck</option>
+                        <option>Chainsaw Man</option>
+                        <option>Final Fantasy Lost Stranger</option>
+                        <option>Bungo Stray Dogs</option>
+                        <option>The Promised Neverland</option>
+                        <option>Jujutsu Kaisen</option>
+                        <option>Lout Of Count's Family</option>
+                        <option>Omnicients reader's Viewpoint</option>
+                        <option>Solo Leveling</option>
+                        <option>Villains Are Destined To Die</option>
+                    </datalist>
+            </label><br>
+            <label for="jumlah">Jumlah buku :
+                <input class="form" type="number" name="jumlah" id="jumlah" placeholder="Jumlah Buku Yang Ingin Dibeli">
+            </label><br><br>
+            <button class="beli" type="submit" id="submit">Kirim</button><br><br>
+        </form>
+        </div>
+
+        
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <h5>Copyright 2023 &copy; by : Team 1 </h5>
+    </footer>
+</body>
+</html>
